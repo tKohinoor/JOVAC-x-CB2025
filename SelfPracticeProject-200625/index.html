@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Simulator Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to the Hotel Simulator Practice</h1>
+    <p>This is a simple HTML page to practice hotel simulation concepts.</p>
+
+    <h2>Getting Started</h2>
+    <p>To start using the hotel simulator, Check In:</p>
+    <input type="text" id="guestName" placeholder="Enter Guest Name">
+    <button onclick="submitName()">Check In</button>
+    
+    <div id="status-log"></div>
+    <div id="type-dish", style="display:none">
+        <input type="text" id="dishName" placeholder="Enter Dish Name">
+        <button onclick="submitDish()">Confirm Order</button>
+    </div>
+
+    <button id="retryBtn" onclick="retryOrder()" style="display:none;">Retry Order</button>
+
+    <footer>
+        Built by Kohinoor Tiwari #StayInTheLoop
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
